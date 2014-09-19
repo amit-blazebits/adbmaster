@@ -9,7 +9,7 @@ no options
   ==> show connected devices.
 
 option [ -l(logcat) ]  arg [ file_suffix ]
-  ==> Runs adb logcat on all connected devices and save output to files (file name:                                          device_name_date_log_tag.log) in logs directory
+  ==> Runs adb logcat on all connected devices and save output to files (file name:                                          device_name_date_log_tag.log) in ~/adbmaster/logs directory
 
 option [ -i ] arg [ device_index ] 
   ==> Sets device_index for device whose logcat is required.
