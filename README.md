@@ -15,7 +15,7 @@ option [ -i ] arg [ device_index ]
   ==> Sets device_index for device whose logcat is required.
 
 option [ -c(clear) ]  arg [ device_index ] 
-  ==> Runs adb pm clear command on device shown at device_index(which is passed as   parameter to this option) shown         in connected devices. Depends upon -p option)
+  ==> Runs adb pm clear command on device shown at device_index(which is passed as   parameter to this option) shown         in connected devices. It doesn't work without -p option.
 
 option [ -p(package) ] arg [ package_name ]
   ==> Sets package_name on which adb pm clear command will be run.
